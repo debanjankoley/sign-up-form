@@ -10,6 +10,11 @@ html, body, fieldset, ul {
     font-family: 'Roboto', sans-serif;
 }
 
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
 .main-container {
     display: flex;
     gap: 42px;
@@ -50,8 +55,26 @@ span.italic {
 .credits {
     position: absolute;
     bottom: 0;
-    left: 100px;
+    left: 115px;
     color: white;
+}
+
+.logo {
+    position: absolute;
+    font-family: norse-bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    width: 100%;
+    top: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.logo img {
+    width: 90px;
 }
 
 .credits > a {
