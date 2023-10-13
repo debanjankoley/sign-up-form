@@ -122,9 +122,14 @@ input {
     border: 1px solid #E5E7EB;
 }
 
+input:active{
+    border: 2px solid skyblue;
+}
+
 input:focus {
     border: 2px solid blue;
-    box-shadow: 2px 3px gray;
+    box-shadow: 4px 4px 10px gray;
+    outline: none;
 }
 
 input:invalid {
