@@ -50,6 +50,8 @@ span.italic {
     position: relative;
     background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: 110%;
+    margin: 0;
+    padding: 0;
 }
 
 .credits {
@@ -79,11 +81,6 @@ span.italic {
 
 .credits > a {
     color: white;
-}
-
-.background-image {
-    margin: 0;
-    padding: 0;
 }
 
 fieldset {
@@ -123,17 +120,17 @@ input {
 }
 
 input:active{
-    border: 2px solid skyblue;
+    border: 1px solid skyblue;
 }
 
 input:focus {
-    border: 2px solid blue;
+    border: 1px solid blue;
     box-shadow: 4px 4px 10px gray;
     outline: none;
 }
 
 input:invalid {
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 button {
@@ -166,4 +163,8 @@ textarea {
 
 a {
     color: #596D48;
+}
+
+.error {
+    border: 1px solid red;
 }
