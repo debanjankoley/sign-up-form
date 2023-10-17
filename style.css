@@ -168,3 +168,14 @@ a {
 .error {
     border: 1px solid red;
 }
+
+input + div {
+    position: relative;
+}
+
+input.error + div::after {
+    content: '* Passwords do not match';
+    position: absolute;
+    font-size: small;
+    color: red;
+}
